@@ -44,4 +44,4 @@ sudo docker exec -it mosquitto mosquitto_passwd -c /mosquitto/passwd mqtt
 
 ## Node Red
 
-Open http://`<your-ip>:1880 on web browser`
+Open http://[your-ip]:1880 on web browser
