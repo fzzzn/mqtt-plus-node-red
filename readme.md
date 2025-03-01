@@ -1,5 +1,11 @@
 # MQTT + NODE-RED
 
+## Prerequisite
+
+```bash
+sudo apt install git curl -y
+```
+
 ## Install docker first
 
 ### Debian
