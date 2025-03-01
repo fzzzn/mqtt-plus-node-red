@@ -24,3 +24,6 @@ services:
       - '0.0.0.0:1880:1880'
     volumes:
       - node-red-data:/data
+
+volumes:
+  node-red-data:
