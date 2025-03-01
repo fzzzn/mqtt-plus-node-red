@@ -34,6 +34,13 @@ git clone https://github.com/fzzzn/mqtt-plus-node-red
 cd mqtt-plus-node-red
 ```
 
+### Fix permission
+
+```bash
+sudo chown -R 1000:1000 node-red-data
+sudo chmod 0700 mosquitto/passwd
+```
+
 ### Run the container
 
 ```bash
